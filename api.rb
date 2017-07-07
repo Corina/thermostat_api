@@ -2,10 +2,13 @@ require 'sinatra'
 
 class Api < Sinatra::Base
   enable :sessions
-  
-  post '/' do
-    
+
+  get '/' do
   end
-  
-  
+
+  post '/' do
+    p params
+  end
+
+
 end
